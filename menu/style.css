@@ -1,0 +1,58 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    color: aliceblue;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+a:hover {
+    opacity: 0.6;
+}
+
+a.logo {
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Arial Bold, Helvetica, sans-serif;
+    background: rgb(73, 133, 211);
+    height: 8vh;
+}
+
+main {
+    background: url("Sem\ título.png");
+    background-size: cover;
+    height: 100vh;
+}
+
+ul.nav-list {
+    display: flex;
+    list-style: none;
+}
+
+ul.nav-list li {
+    letter-spacing: 4px;
+    margin-left: 24px;
+}
+
+div.mobile-menu {
+    display: none;
+    cursor: pointer;
+}
+
+div.mobile-menu div {
+    width: 32px;
+    height: 2px;
+    background-color: aliceblue;
+    margin: 8px;
+    transition: 0.4s;
+}
