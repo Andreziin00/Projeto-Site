@@ -29,7 +29,7 @@ nav {
 }
 
 main {
-    background: url("Sem\ título.png");
+    background: url("Sem\ título.png") no-repeat center center;
     background-size: cover;
     height: 100vh;
 }

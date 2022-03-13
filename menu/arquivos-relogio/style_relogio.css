@@ -1,0 +1,23 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+div.caixa-de-horario {
+  padding: 25px;
+  margin: 25px;
+  width: 200px;
+  height: 80px;
+  background: rgb(73, 133, 211);
+  box-shadow: rgba(31, 57, 92, 0.76);
+  border-radius: 20px;
+  align-items: center;
+}
+
+div.caixa-de-horario p {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 12px;
+  letter-spacing: 3px;
+  color: aliceblue;
+  text-align: left;
+}

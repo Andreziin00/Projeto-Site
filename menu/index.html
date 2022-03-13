@@ -6,10 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>site</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style_nav-bar.css">
+    <link rel="stylesheet" href="arquivos-relogio/style_relogio.css">
 </head>
 
-<body>
+<body onload="mensagem_hora()">
     <header>
         <nav>
             <a href="/" class="logo">logo</a>
@@ -28,7 +29,16 @@
             </ul>
         </nav>
     </header>
-    <main></main>
+    <main>
+        <div class="caixa-de-horario">
+            <p class="mensagem_hora">
+            </p> <br>
+
+            <p class="tratamento">
+            </p>
+        </div>
+    </main>
+    <script src="arquivos-relogio/hora-do-dia.js"></script>
     <script src="nav-bar.js"></script>
 </body>
 
