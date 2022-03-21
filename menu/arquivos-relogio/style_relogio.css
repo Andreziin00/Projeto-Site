@@ -9,7 +9,7 @@ div.caixa-de-horario {
   width: 200px;
   height: 80px;
   background: rgb(73, 133, 211);
-  box-shadow: rgba(31, 57, 92, 0.76);
+  box-shadow: 10px 10px 10px rgba(31, 57, 92, 0.76);
   border-radius: 20px;
   align-items: center;
 }
