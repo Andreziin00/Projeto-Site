@@ -8,27 +8,32 @@
     <title>site</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="/conteudo/caixas_de_dialogo.css">
+    <link rel="stylesheet" href="/conteudo/categorias.css">
+    <link rel="stylesheet" href="/conteudo/contatos.css">
 </head>
 
-<body class="fundo">
-    <header>
-        <nav>
-            <a href="/" class="logo">+geek</a>
 
-            <div class="mobile-menu">
-                <div class="line1"></div>
-                <div class="line2"></div>
-                <div class="line3"></div>
-            </div>
+<header>
+    <nav>
+        <a href="#fundo" class="logo">+geek</a>
 
-            <ul class="nav-list">
-                <li><a href="#">home</a></li>
-                <li><a href="/">novidades</a></li>
-                <li><a href="/">categorias</a></li>
-                <li><a href="/">sobre</a></li>
-            </ul>
-        </nav>
-    </header>
+        <div class="mobile-menu">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+
+        <ul class="nav-list">
+            <li><a href="#fundo">tópicos</a></li>
+            <li><a href="/">novidades</a></li>
+            <li><a href="#categorias">categorias</a></li>
+            <li><a href="#contato">contato</a></li>
+        </ul>
+    </nav>
+</header>
+
+<body id="fundo" class="fundo">
+
     <main>
 
         <div class="container">
@@ -100,29 +105,33 @@
             </div>
         </div>
 
-        <!--<div class="box-1">
-            <h2>olá joinha</h2> <br>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos magni consectetur inventore obcaecati
-                adipisci labore modi, voluptatum autem illum cum rerum hic atque maxime, ex fugiat quod facilis
-                consequatur similique.</p>
-            <div>
-
-                <div class="box-2">
-                    <h2>mais diálogo</h2> <br>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus asperiores at explicabo,
-                        rerum eum tempore. Nisi, nulla, eligendi , necessitatibus sed eius iusto suscipit earum?</p>
-                </div>
-
-                <div class="box-3">
-                    <h2>mais diálogo</h2> <br>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus asperiores at explicabo,
-                        rerum eum tempore. Nisi, nulla, eligendi , necessitatibus sed eius iusto suscipit earum?</p>
-                </div>
-
-                <p class="tratamento">
-                </p>
-            </div>-->
     </main>
+
+    <div id="categorias" class="categorias">
+        <ul class="categorias-1">
+            <li style="--i:4;"><a href="#">animes</a></li>
+            <li style="--i:3;"><a href="#">jogos</a></li>
+            <li style="--i:2;"><a href="#">musicas</a></li>
+            <li style="--i:1;"><a href="#">series</a></li>
+        </ul>
+
+        <ul class="categorias-2">
+            <li style="--i:4;"><a href="#">desenhos</a></li>
+            <li style="--i:3;"><a href="#">alphabet</a></li>
+            <li style="--i:2;"><a href="#">mangás</a></li>
+            <li style="--i:1;"><a href="#">HQ's</a></li>
+        </ul>
+    </div>
+
+    <div id="contato" class="contatos">
+        <ul>
+            <li style="--i:4;"><a href="#">andre</a></li>
+            <li style="--i:3;"><a href="#">netto</a></li>
+            <li style="--i:2;"><a href="#">matheus</a></li>
+            <li style="--i:1;"><a href="#">marco</a></li>
+        </ul>
+    </div>
+
     <script src="nav-bar.js"></script>
 </body>
 

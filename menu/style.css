@@ -4,13 +4,16 @@
   margin: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 main {
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
   font-family: 'poppins', sans-serif;
-  z-index: -2;
 }
 
 a {
@@ -33,6 +36,7 @@ a.logo {
 header {
   position: sticky;
   top: 0;
+  z-index: 1;
 }
 
 nav {
