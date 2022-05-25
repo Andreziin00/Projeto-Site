@@ -73,7 +73,7 @@
 
 .contatos ul li a {
   text-decoration: none;
-  color: #999;
+  color: #fff;
   display: block;
   text-transform: uppercase;
   letter-spacing: 0.05em;
@@ -81,7 +81,7 @@
 }
 
 .contatos lu li a:hover {
-  color: #fff;
+  color: rgb(201, 201, 201);
 }
 
 .contatos ul li:last-child::after {
