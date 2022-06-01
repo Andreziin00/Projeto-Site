@@ -1,15 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-.container{
+.container {
   position: static;
   width: 90%;
   max-width: 1100px;
   display: grid;
-  grid-template-columns: repeat(auto-fill,minmax(260px,1fr));
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
   grid-gap: 0 120px;
   grid-template-rows: auto;
 }
-.container .box{
+
+.container .box {
   position: relative;
   height: 400px;
   margin-top: 100px;
@@ -20,25 +21,32 @@
   align-items: center;
   border: 1px solid #000;
 }
-.container .box:nth-child(1)::before{
-  background: linear-gradient(315deg, #ff0057,#e64a19);
+
+.container .box:nth-child(1)::before {
+  background: linear-gradient(315deg, #ff0057, #e64a19);
 }
-.container .box:nth-child(2)::before{
-  background: linear-gradient(315deg, #89ff00,#00bcd4);
+
+.container .box:nth-child(2)::before {
+  background: linear-gradient(315deg, #89ff00, #00bcd4);
 }
-.container .box:nth-child(3)::before{
-  background: linear-gradient(315deg, #e91e63,#5d02ff);
+
+.container .box:nth-child(3)::before {
+  background: linear-gradient(315deg, #e91e63, #5d02ff);
 }
-.container .box:nth-child(4)::before{
-  background: linear-gradient(315deg, #ff5e00,#31e619);
+
+.container .box:nth-child(4)::before {
+  background: linear-gradient(315deg, #ff5e00, #31e619);
 }
-.container .box:nth-child(5)::before{
-  background: linear-gradient(315deg, rgb(89, 255, 255),#e619dc);
+
+.container .box:nth-child(5)::before {
+  background: linear-gradient(315deg, rgb(89, 255, 255), #e619dc);
 }
-.container .box:nth-child(6)::before{
-  background: linear-gradient(315deg, #d0ff00,#1983e6);
+
+.container .box:nth-child(6)::before {
+  background: linear-gradient(315deg, #d0ff00, #1983e6);
 }
-.container .box::before{
+
+.container .box::before {
   content: '';
   position: absolute;
   top: -2px;
@@ -47,50 +55,57 @@
   bottom: -2px;
   background: #fff;
   z-index: -1;
-  transform: skew(2deg,2deg);
+  transform: skew(2deg, 2deg);
 }
-.container .box::after{
+
+.container .box::after {
   content: '';
   position: absolute;
   top: 0;
   left: 0;
   width: 50%;
   height: 100%;
-  background: rgba(255,255,255,.05);
+  background: rgba(255, 255, 255, .05);
   pointer-events: none;
 }
-.content{
+
+.content {
   position: relative;
   padding: 20px;
   transform: translateY(40px);
 }
-.content h2{
+
+.content h2 {
   position: absolute;
   top: -60px;
   right: 20px;
   margin: 0;
   padding: 0;
   font-size: 10em;
-  color: rgba(255,255,255,.05);
+  color: rgba(255, 255, 255, .05);
   transition: 0.5s;
 }
-.box:hover .content h2{
+
+.box:hover .content h2 {
   top: -140px;
 }
-.box .content h3{
+
+.box .content h3 {
   margin: 0 0 10px;
   padding: 0;
   font-size: 24px;
   font-weight: 500;
   color: #fff;
 }
-.box .content p{
+
+.box .content p {
   margin: 0;
   padding: 0;
   color: #fff;
   font-size: 16px;
 }
-.box .content a{
+
+.box .content a {
   position: relative;
   margin: 20px 0 0;
   padding: 10px 20px;
@@ -103,12 +118,28 @@
   opacity: 0;
   visibility: hidden;
 }
-.box:hover .content a{
+
+.box:hover .content a {
   transform: translateY(0);
   opacity: 1;
   visibility: visible;
 }
-.box .content a:hover{
+
+.box .content a:hover {
   color: #000;
   background: #fff;
+}
+
+/*topicos-iniciais*/
+
+.topicos-iniciais {
+  padding: 0;
+  margin: 0;
+  width: 84.3em;
+  height: 200px;
+  background-color: #000;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: url(https://www.einerd.com.br/wp-content/uploads/2015/12/einerd-header-bg.jpg);
+  max-width: 100%;
 }

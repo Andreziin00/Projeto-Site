@@ -3,13 +3,19 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>site</title>
+    <link rel="icon" href="favicon-16x16.png">
+    <title>GeekAnimes</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="/conteudo/caixas_de_dialogo.css">
     <link rel="stylesheet" href="/conteudo/categorias.css">
     <link rel="stylesheet" href="/conteudo/contatos.css">
+
+    <style>
+        body {
+            background-color: #282852;
+        }
+    </style>
 </head>
 
 
@@ -25,27 +31,32 @@
 
         <ul class="nav-list">
             <li><a href="#fundo">tópicos</a></li>
-            <li><a href="/">novidades</a></li>
+            <li><a href="/">sobre</a></li>
             <li><a href="#categorias">categorias</a></li>
             <li><a href="#contato">contato</a></li>
         </ul>
     </nav>
 </header>
 
-<body id="fundo" class="fundo">
+<div class="topicos-iniciais">
 
+</div>
+
+<body id="fundo" class="fundo">
+    <hr>
+    <h2>novidades da semana</h2>
     <main>
 
         <div class="container">
             <div class="box">
                 <div class="content">
                     <h2>01</h2>
-                    <h3>Serviço Um</h3>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                        Ipsa eaque cum, enim numquam quam distinctio amet! Consectetur,
-                        eum. Blanditiis temporibus dolorum itaque excepturi est nostrum
-                        minima vel</p>
-                    <a href="#">mais informações</a>
+                    <h3>goku morre</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit
+                        . Hic non eum similique reprehenderit? Ducimus, 
+                        ipsa illum, quod pariatur delectus iste nemo cumque non maiores 
+                        natus ipsum autem tenetur nam itaque.</p>
+                    <a href="/PaginaSecundaria/index2.html">mais informações</a>
                 </div>
             </div>
             <div class="box">
@@ -107,29 +118,51 @@
 
     </main>
 
-    <div id="categorias" class="categorias">
-        <ul>
-            <li style="--i:4;"><a href="#">animes</a></li>
-            <li style="--i:3;"><a href="#">jogos</a></li>
-            <li style="--i:2;"><a href="#">musicas</a></li>
-            <li style="--i:1;"><a href="#">series</a></li>
-        </ul>
+    <div class="body-segment">
+        <div id="categorias" class="categorias">
+            <ul>
+                <li style="--i:4;"><a href="/PaginaSecundaria/categoria_anime.html">animes</a></li>
+                <li style="--i:3;"><a href="/PaginaSecundaria/categoria_jogos.html">jogos</a></li>
+                <li style="--i:2;"><a href="/PaginaSecundaria/categoria_filmes.html">filmes</a></li>
+                <li style="--i:1;"><a href="/PaginaSecundaria/categoria_series.html">series</a></li>
+            </ul>
 
-        <ul>
-            <li style="--i:4;"><a href="#">desenhos</a></li>
-            <li style="--i:3;"><a href="#">alphabet</a></li>
-            <li style="--i:2;"><a href="#">mangás</a></li>
-            <li style="--i:1;"><a href="#">HQ's</a></li>
-        </ul>
-    </div>
+            <!--<ul>
+                <li style="--i:4;"><a href="#">desenhos</a></li>
+                <li style="--i:3;"><a href="#">alphabet</a></li>
+                <li style="--i:2;"><a href="#">mangás</a></li>
+                <li style="--i:1;"><a href="#">HQ's</a></li>
+            </ul>------------------------------------------------->
+        </div>
+        <hr>
+        <h2>contatos e mais</h2>
 
-    <div id="contato" class="contatos">
-        <ul>
-            <li style="--i:4;"><a href="#">@andre</a></li>
-            <li style="--i:3;"><a href="#">@netto</a></li>
-            <li style="--i:2;"><a href="#">@matheus</a></li>
-            <li style="--i:1;"><a href="#">@marco</a></li>
-        </ul>
+        <footer class="footer">
+            <div class="informacoes">
+                <a href="https://www.instagram.com/"><img src="instagram.png"
+                        alt="instagram"></a> <br>
+                <a href="https://www.twitter.com/"><img src="twitter.png"
+                        alt="instagram"></a> <br>
+                <p class="class_copyright">
+                    <strong>GEEK+</strong> Copyright © 2022 Todos os direitos reservados.
+                </p>
+            </div>
+
+            <div class="logo_final">
+                <h2 class="logo_footer">+GEEK</h2>
+            </div>
+
+            <div id="contato" class="contatos">
+
+                <br>
+                <ul class="desenvolvedores">
+                    <li style="--i:4;"><a href="https://www.instagram.com/andreziin_00/">@andre</a></li>
+                    <li style="--i:3;"><a href="https://www.instagram.com/nettovz/">@netto</a></li>
+                    <li style="--i:2;"><a href="https://www.instagram.com/matheusxpg/">@matheus</a></li>
+                    <li style="--i:1;"><a href="https://www.instagram.com/marcoscesarr081/">@marco</a></li>
+                </ul>
+            </div>
+        </footer>
     </div>
 
     <script src="nav-bar.js"></script>

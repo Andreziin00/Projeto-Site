@@ -1,4 +1,3 @@
-
 * {
   padding: 0;
   margin: 0;
@@ -6,6 +5,25 @@
 
 html {
   scroll-behavior: smooth;
+}
+
+hr {
+  opacity: 0.6;
+  background: #dcdce0;
+  height: 0.2em;
+  margin: 1.5em;
+  border-radius: 60%;
+  max-width: 100%;
+}
+
+h2 {
+  font-family: 'poppins', sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  color: #bcbcdf;
+  margin-left: 2em;
+  max-width: 100%;
 }
 
 main {
@@ -49,14 +67,7 @@ nav {
   height: 8vh;
 }
 
-/*main:not(background){
-    background: url("fundo-alternativo.jpg") no-repeat center center;
-    background-size: cover;
-    height: 100vh;
-    padding: 1px 0;
-}*/
-
-.fundo {
+/*.fundo {
   background: linear-gradient(45deg, rgb(89, 255, 255), rgb(89, 180, 255), rgb(92, 89, 255), rgb(153, 89, 255));
   background-size: 300%, 300%;
   animation: colors 15s ease infinite;
@@ -79,7 +90,7 @@ nav {
     background-position: 100% 0%;
   }
 
-}
+}*/
 
 ul.nav-list {
   display: flex;
