@@ -26,6 +26,10 @@ h2 {
   max-width: 100%;
 }
 
+html {
+  width: 100%;
+}
+
 main {
   display: flex;
   justify-content: center;
